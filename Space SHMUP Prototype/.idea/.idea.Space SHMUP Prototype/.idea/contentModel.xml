@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\EOLuser\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\EOLuser\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Space SHMUP Prototype.1954062771.00" t="ExcludeRecursive" />
+    <e p="C:\Users\EOLuser\Documents\Game Projects\Space SHMUP Prototype\Space SHMUP Prototype" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_Materials" t="Include">
+          <e p="UnlitAlpha.shader" t="Include" />
+        </e>
+        <e p="_Scripts" t="Include">
+          <e p="BoundsCheck.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="Enemy_1.cs" t="Include" />
+          <e p="Hero.cs" t="Include" />
+          <e p="Main.cs" t="Include" />
+          <e p="Projectile.cs" t="Include" />
+          <e p="Shield.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Space SHMUP Prototype.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
