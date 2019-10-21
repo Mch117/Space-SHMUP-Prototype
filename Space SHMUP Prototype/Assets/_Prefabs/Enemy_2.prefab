@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8771615928661417137}
   - component: {fileID: 8771615928661417150}
   - component: {fileID: 8771615928661417151}
-  m_Layer: 9
+  m_Layer: 13
   m_Name: Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 8771615928882159638}
   - component: {fileID: 8771615928882159639}
   - component: {fileID: 8771615928882159636}
-  m_Layer: 9
+  m_Layer: 13
   m_Name: Reactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,9 +194,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8771615928964740561}
   - component: {fileID: 2148006714138606705}
-  m_Layer: 9
+  - component: {fileID: 1723797105717729961}
+  m_Layer: 13
   m_Name: Enemy_2
-  m_TagString: Enemy
+  m_TagString: Enemy_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,6 +235,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &1723797105717729961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8771615928964740574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b549917455f3064fb9a0a2f91711c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  stoppingDistance: 20
+  retreatDistance: 10
+  startTimeBtwShots: 2
+  projectilePrefab: {fileID: 6985687589524057486, guid: 7f163220b7b7f2440b4ddcca3973a77f,
+    type: 3}
+  projectileSpeed: -50
+  player: {fileID: 6261485368174750909, guid: 3777c495fd13e5d4fb1947c9b09e66db, type: 3}
+  scoreValue: 10
 --- !u!1 &8771615929093991627
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,7 +268,7 @@ GameObject:
   - component: {fileID: 8771615929093991631}
   - component: {fileID: 8771615929093991628}
   - component: {fileID: 8771615929093991629}
-  m_Layer: 9
+  m_Layer: 13
   m_Name: Cockpit
   m_TagString: Untagged
   m_Icon: {fileID: 0}

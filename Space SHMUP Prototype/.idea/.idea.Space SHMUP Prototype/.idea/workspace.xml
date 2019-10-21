@@ -15,10 +15,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Shield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Hero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Enemy_1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../fillaHole_debug-master/fillaHole_debug-master/Assets/Scripts/ScoreScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ScoreScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../fillaHole_debug-master/fillaHole_debug-master/Assets/Scripts/ResetScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Enemy_2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/BoundsCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ResetScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ProjectileEnemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -27,10 +33,16 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/BoundsCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Enemy2.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/ProjectileEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/LeaderBoard.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Hero.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/ScoreScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Enemy_2.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Main.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Enemy_1.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Main.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/ResetScript.cs" />
       </list>
     </option>
   </component>
@@ -62,10 +74,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="8820">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="8820" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -84,6 +96,13 @@
       <workItem from="1570476967640" duration="2353000" />
       <workItem from="1570567055049" duration="5409000" />
       <workItem from="1570595064802" duration="10459000" />
+      <workItem from="1571192161096" duration="978000" />
+      <workItem from="1571258247626" duration="1215000" />
+      <workItem from="1571354834880" duration="7232000" />
+      <workItem from="1571430624117" duration="2067000" />
+      <workItem from="1571438245651" duration="9722000" />
+      <workItem from="1571635265646" duration="2097000" />
+      <workItem from="1571637915286" duration="83000" />
     </task>
     <servers />
   </component>
@@ -97,7 +116,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -105,6 +126,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1876" height="335" key="GridCell.Tab.0.bottom" />
+    <state width="1876" height="335" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.0.center" />
+    <state width="1876" height="335" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.0.left" />
+    <state width="1876" height="335" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.0.right" />
+    <state width="1876" height="335" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.1.bottom" />
+    <state width="1876" height="335" key="GridCell.Tab.1.bottom/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.1.center" />
+    <state width="1876" height="335" key="GridCell.Tab.1.center/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.1.left" />
+    <state width="1876" height="335" key="GridCell.Tab.1.left/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.1.right" />
+    <state width="1876" height="335" key="GridCell.Tab.1.right/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.2.bottom" />
+    <state width="1876" height="335" key="GridCell.Tab.2.bottom/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.2.center" />
+    <state width="1876" height="335" key="GridCell.Tab.2.center/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.2.left" />
+    <state width="1876" height="335" key="GridCell.Tab.2.left/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.2.right" />
+    <state width="1876" height="335" key="GridCell.Tab.2.right/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.3.bottom" />
+    <state width="1876" height="335" key="GridCell.Tab.3.bottom/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.3.center" />
+    <state width="1876" height="335" key="GridCell.Tab.3.center/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.3.left" />
+    <state width="1876" height="335" key="GridCell.Tab.3.left/1920.1080" />
+    <state width="1876" height="335" key="GridCell.Tab.3.right" />
+    <state width="1876" height="335" key="GridCell.Tab.3.right/1920.1080" />
+    <state x="616" y="235" key="run.anything.popup" />
+    <state x="616" y="235" key="run.anything.popup/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -100,6 +100,18 @@ public class Hero : MonoBehaviour
             shieldLevel--;
             Destroy(go);
         }
+        else if (go.tag == "Enemy_2")
+        {
+            shieldLevel--;
+            Destroy(go);
+            Debug.Log("killed the Hero");
+        }
+        
+        else if (go.tag == "ProjectileEnemy")
+        {
+            shieldLevel--;
+            Destroy(go);
+        }
         else
         {
             print("Triggered by non-Enemy: "+go.name);
@@ -120,7 +132,10 @@ public class Hero : MonoBehaviour
                 
                 //Tell Main.s to restart the game after a delay
                 Main.S.DelayedRestart(gameRestartDelay);
+                Debug.Log("Restart Game");
             }
         }
     }
+    
+    
 }

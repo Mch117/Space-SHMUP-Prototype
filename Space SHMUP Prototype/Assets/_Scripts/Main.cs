@@ -54,11 +54,12 @@ public class Main : MonoBehaviour
     {
         //Invoke the Restart() method in delay seconds
         Invoke("Restart", delay);
+        Debug.Log("End Game");
     }
 
     public void Restart()
     {
         //Reload SampleScene to restart the game
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("GameOver");
     }
 }

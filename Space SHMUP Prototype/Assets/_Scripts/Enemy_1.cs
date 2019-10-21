@@ -7,6 +7,7 @@ public class Enemy_1 : MonoBehaviour
 {
    public float speed;
    private Transform target;
+   public int scoreValue = 5; // Point earned for destroying
 
    private void Start()
    {
@@ -15,9 +16,9 @@ public class Enemy_1 : MonoBehaviour
 
    private void Update()
    {
-      if (Vector2.Distance(transform.position, target.position) > 3)
+      if (Vector3.Distance(transform.position, target.position) > 3)
       {
-         transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+         transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
       }
    }
    
@@ -27,8 +28,11 @@ public class Enemy_1 : MonoBehaviour
 
       if (otherGo.tag == "ProjectileHero")
       {
+         ScoreScript.score += scoreValue;
          Destroy(otherGo);
          Destroy(gameObject);
+         
+         
       }
       else
       {

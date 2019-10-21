@@ -6,13 +6,13 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
-    public float speed = 10f; // the speed in m/s
+    public float speed = 20f; // the speed in m/s
 
     public float fireRate = 0.3f; // seconds/shot
 
     public float health = 10;
 
-    public float score = 100; // Point earned for destroying
+    public int scoreValue = 2; // Point earned for destroying
 
     private BoundsCheck bndCheck;
     
@@ -38,6 +38,7 @@ public class Enemy : MonoBehaviour
         {
             //We're off the bottom, so destroy this GameObject
             Destroy(gameObject);
+            //Score();
                 
                 
         }
@@ -56,12 +57,18 @@ public class Enemy : MonoBehaviour
 
         if (otherGo.tag == "ProjectileHero")
         {
+            ScoreScript.score += scoreValue;
             Destroy(otherGo);
             Destroy(gameObject);
+            
+            //Debug.Log("Score increase");
+
         }
         else
         {
             print("Enemy hit by non-ProjectileHero: "+otherGo.name);
         }
     }
+
+   
 }

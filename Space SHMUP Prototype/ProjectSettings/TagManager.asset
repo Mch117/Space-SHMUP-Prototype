@@ -10,6 +10,7 @@ TagManager:
   - ProjectileEnemy
   - PowerUp
   - PowerUpBox
+  - Enemy_2
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - ProjectileHero
   - ProjectileEnemy
   - PowerUp
-  - 
+  - Enemy_2
   - 
   - 
   - 
