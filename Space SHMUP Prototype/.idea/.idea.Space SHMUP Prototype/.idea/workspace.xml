@@ -38,11 +38,11 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/LeaderBoard.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Hero.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/ScoreScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Enemy_2.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Enemy_1.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Main.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/ResetScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Enemy_2.cs" />
       </list>
     </option>
   </component>
@@ -103,6 +103,7 @@
       <workItem from="1571438245651" duration="9722000" />
       <workItem from="1571635265646" duration="2097000" />
       <workItem from="1571637915286" duration="83000" />
+      <workItem from="1571640600513" duration="430000" />
     </task>
     <servers />
   </component>

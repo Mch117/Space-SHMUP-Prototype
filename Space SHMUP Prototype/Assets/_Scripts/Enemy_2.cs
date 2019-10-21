@@ -14,7 +14,7 @@ public class Enemy_2 : MonoBehaviour
     public float startTimeBtwShots;
     
     public GameObject projectilePrefab;
-    public float projectileSpeed = 40;
+    public float projectileSpeed = 80;
     public Transform player;
     public int scoreValue = 10; // Point earned for destroying
    
@@ -64,7 +64,7 @@ public class Enemy_2 : MonoBehaviour
         GameObject projGO = Instantiate<GameObject>(projectilePrefab);
         projGO.transform.position = transform.position;
         Rigidbody rigidB = projGO.GetComponent<Rigidbody>();
-        rigidB.velocity =  Vector3.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
+        rigidB.velocity =  Vector3.up * projectileSpeed;
         
     }
     

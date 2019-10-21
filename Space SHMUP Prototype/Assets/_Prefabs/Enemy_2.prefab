@@ -250,10 +250,10 @@ MonoBehaviour:
   speed: 20
   stoppingDistance: 20
   retreatDistance: 10
-  startTimeBtwShots: 2
+  startTimeBtwShots: 1
   projectilePrefab: {fileID: 6985687589524057486, guid: 7f163220b7b7f2440b4ddcca3973a77f,
     type: 3}
-  projectileSpeed: -50
+  projectileSpeed: 10
   player: {fileID: 6261485368174750909, guid: 3777c495fd13e5d4fb1947c9b09e66db, type: 3}
   scoreValue: 10
 --- !u!1 &8771615929093991627
