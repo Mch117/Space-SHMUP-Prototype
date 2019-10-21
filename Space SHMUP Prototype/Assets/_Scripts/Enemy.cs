@@ -57,7 +57,7 @@ public class Enemy : MonoBehaviour
 
         if (otherGo.tag == "ProjectileHero")
         {
-            ScoreScript.score += scoreValue;
+            ScoreScript.S.UpdateScore();
             Destroy(otherGo);
             Destroy(gameObject);
             
