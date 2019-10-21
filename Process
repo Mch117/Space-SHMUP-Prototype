@@ -1,0 +1,9 @@
+Process entry 1:
+
+We start with a simple shooter game with help of the book we are reading, it was a simple one enemy game. I started to remix it by adding another enemy that fallows you around as you move and tries to attack you. My initial idea for this remix was to try changing the enemys and the orintation but due to time constraints I had to go a diffrent way. I decided to go with a simplistic game but still have a lot of chaos where it can be replayable. I also wanted to make it so that you could compete with otheres other SHMUPS, so I wanted to add a high score arcade style.
+
+Process entry 2:
+
+Midway through the process of the game I ran into problems with the 3rd enemy I was able to make it fallow the player but the enemy shooting became a small problem. I originaly wanted to make the enemy shoot at the player as it moved around but when I tried to make it fallow it started shooting the opposit way. In the end I just made the Enemy shoot down directly down instead. 
+
+Process entry 3:
