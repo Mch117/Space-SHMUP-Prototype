@@ -7,4 +7,4 @@ Process entry 2:
 Midway through the process of the game I ran into problems with the 3rd enemy I was able to make it fallow the player but the enemy shooting became a small problem. I originaly wanted to make the enemy shoot at the player as it moved around but when I tried to make it fallow it started shooting the opposit way. In the end I just made the Enemy shoot down directly down instead. 
 
 Process entry 3:
-My design goals was to give the game a classic feal of a game and give you a reason to replay. One goal was to have at least three differen enemys that would attacked you as you tried getting a high score. 
+My design goals was to give the game a classic feal of a game and give you a reason to replay. One goal was to have at least three differen enemys that would attacked you as you tried getting a high score. Each enemy was created to do its own things and I didnt change much of the art style do to the amount of time I had. 
